@@ -8,7 +8,7 @@ import pandas as pd
 
 def index(request):
     url = "https://www.nseindia.com/option-chain"
-    chrome = "D:\chromedriver.exe"
+    chrome = "D:\chromedriver.exe"  #Put your Chromedriver path here.
     # useragent = {"User-Agent":'Mozilla/5.0 (Windows NT10.0; Win64;x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36'}
     # r = requests.get(url, headers=useragent)
     # soup = BeautifulSoup(r.content, 'html.parser')
